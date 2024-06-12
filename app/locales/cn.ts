@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      : "访问密码不正确或为空,该入口不在维护，faster官方推出chatApi，支持gpt-4和gpt-4o，老客户请迁移到 https://chatapi24.com ，注册即可赠送20万算力值",
   },
   Auth: {
     Title: "需要密码",
